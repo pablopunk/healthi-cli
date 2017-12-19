@@ -8,6 +8,7 @@ test('returns a value greater than 0', async t => {
   const result = parseFloat(stdout.trim())
   t.falsy(stderr)
   t.true(result > 0.0)
+  console.log(stdout)
 })
 
 test('ends with %', async t => {
@@ -15,6 +16,7 @@ test('ends with %', async t => {
   const result = stdout.trim()[stdout.length - 1]
   t.falsy(stderr)
   t.is(result, '%')
+  console.log(stdout)
 })
 
 test('has two decimals', async t => {
@@ -22,4 +24,5 @@ test('has two decimals', async t => {
   const decimals = stdout.trim().split('%')[0].split('.')[1]
   t.falsy(stderr)
   t.is(decimals.length, 2)
+  console.log(stdout)
 })
