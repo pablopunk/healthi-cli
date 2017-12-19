@@ -3,6 +3,10 @@
   "description": "Check your computer's battery health",
   "version": "1.0.2",
   "author": "Pablo Varela <pablovarela182@gmail.com>",
+  "main": "index.js",
+  "bin": {
+    "healthi": "index.js"
+  },
   "bugs": {
     "url": "https://github.com/pablopunk/healthi-cli/issues",
     "email": "pablovarela182@gmail.com"
@@ -35,10 +39,6 @@
     "laptop"
   ],
   "license": "MIT",
-  "main": "index.js",
-  "bin": {
-    "healthi": "index.js"
-  },
   "nyc": {
     "reporter": [
       "lcov",
