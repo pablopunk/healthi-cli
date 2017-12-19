@@ -1,0 +1,56 @@
+{
+  "name": "healthi-cli",
+  "description": "Check your computer's battery health",
+  "version": "1.0.0",
+  "author": "Pablo Varela <pablovarela182@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/pablopunk/healthi-cli/issues",
+    "email": "pablovarela182@gmail.com"
+  },
+  "contributors": [
+    "Pablo Varela <pablovarela182@gmail.com>"
+  ],
+  "dependencies": {
+    "healthi": "^3.4.0"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "codecov": "*",
+    "execa": "^0.8.0",
+    "nyc": "*",
+    "standard": "*"
+  },
+  "homepage": "https://github.com/pablopunk/healthi-cli",
+  "keywords": [
+    "miny",
+    "healthi",
+    "healthi-js",
+    "health",
+    "battery",
+    "mac",
+    "cli",
+    "tool",
+    "command",
+    "line",
+    "laptop"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "nyc": {
+    "reporter": [
+      "lcov",
+      "html",
+      "text"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pablopunk/healthi-cli"
+  },
+  "scripts": {
+    "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
+    "lint": "standard",
+    "test": "npm run lint && npm run test-coverage",
+    "test-coverage": "nyc ava"
+  }
+}
