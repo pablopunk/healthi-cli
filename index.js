@@ -2,6 +2,7 @@
 
 const os = require('os')
 
+/* istanbul ignore if */
 if (os.platform() !== 'darwin') {
   throw new Error('Only Mac is supported for now.')
 }
