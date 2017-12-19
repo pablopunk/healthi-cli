@@ -16,15 +16,14 @@
 ## Install
 
 ```sh
-npm install healthi-cli
+npm install -g healthi-cli
 ```
 
 
 ## Usage
 
-```js
-const healthiCli = require('healthi-cli')
-// use as you like
+```sh
+$ healthi
 ```
 
 

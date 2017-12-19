@@ -36,6 +36,9 @@
   ],
   "license": "MIT",
   "main": "index.js",
+  "bin": {
+    "healthi": "index.js"
+  },
   "nyc": {
     "reporter": [
       "lcov",
