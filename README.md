@@ -24,6 +24,7 @@ npm install -g healthi-cli
 
 ```sh
 $ healthi
+85.42%
 ```
 
 
