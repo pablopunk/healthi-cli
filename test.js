@@ -4,22 +4,19 @@ const { shellSync } = require('execa')
 const exe = shellSync
 
 test('returns a value greater than 0', async t => {
-  const { stdout, code } = exe(`./index.js`, { cwd: __dirname })
+  const { stdout } = exe(`./index.js`, { cwd: __dirname })
   const result = parseFloat(stdout.trim())
-  t.is(code, 0)
   t.true(result > 0.0)
 })
 
 test('ends with %', async t => {
-  const { stdout, code } = exe(`./index.js`, { cwd: __dirname })
+  const { stdout } = exe(`./index.js`, { cwd: __dirname })
   const result = stdout.trim()[stdout.length - 1]
-  t.is(code, 0)
   t.is(result, '%')
 })
 
 test('has two decimals', async t => {
-  const { stdout, code } = exe(`./index.js`, { cwd: __dirname })
+  const { stdout } = exe(`./index.js`, { cwd: __dirname })
   const decimals = stdout.trim().split('%')[0].split('.')[1]
-  t.is(code, 0)
   t.is(decimals.length, 2)
 })
