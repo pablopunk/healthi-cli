@@ -1,7 +1,7 @@
 {
   "name": "healthi-cli",
   "description": "Check your computer's battery health",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "Pablo Varela <pablovarela182@gmail.com>",
   "main": "index.js",
   "bin": {
