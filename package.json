@@ -20,7 +20,7 @@
   "devDependencies": {
     "ava": "*",
     "codecov": "*",
-    "execa": "^0.8.0",
+    "execa": "^0.10.0",
     "nyc": "*",
     "standard": "*"
   },
