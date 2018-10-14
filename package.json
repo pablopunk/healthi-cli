@@ -15,13 +15,13 @@
     "Pablo Varela <pablovarela182@gmail.com>"
   ],
   "dependencies": {
-    "healthi": "^4.1.0"
+    "healthi": "^4.1.4"
   },
   "devDependencies": {
-    "ava": "*",
-    "codecov": "*",
+    "ava": "^0.25.0",
+    "codecov": "^3.1.0",
     "execa": "^0.10.0",
-    "nyc": "*",
+    "nyc": "^13.1.0",
     "standard": "*"
   },
   "homepage": "https://github.com/pablopunk/healthi-cli",
