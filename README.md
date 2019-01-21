@@ -30,7 +30,7 @@ $ healthi
 ## Related
 
 * [healthi-js](https://github.com/pablopunk/healthi-js) The module this CLI uses
-* [healthi-app](https://github.com/pablopunk/healthi-app) The topbar app for your mac.
+* [healthi-app](https://github.com/pablopunk/healthi-app) The app for mac and linux.
 
 
 ## License
