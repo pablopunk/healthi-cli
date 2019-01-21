@@ -1,4 +1,4 @@
-const test = require('ava').serial
+const test = require('myass')
 const { shellSync } = require('execa')
 
 const exe = shellSync
