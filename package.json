@@ -18,8 +18,6 @@
     "healthi": "^4.3.2"
   },
   "devDependencies": {
-    "execa": "^0.10.0",
-    "nyc": "^13.1.0",
     "standard": "*"
   },
   "homepage": "https://github.com/pablopunk/healthi-cli",
