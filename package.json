@@ -15,7 +15,7 @@
     "Pablo Varela <pablovarela182@gmail.com>"
   ],
   "dependencies": {
-    "healthi": "^4.1.4"
+    "healthi": "^4.3.2"
   },
   "devDependencies": {
     "ava": "^0.25.0",
